@@ -48,8 +48,19 @@ table {
     margin: 20px auto;
     border-collapse: collapse;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFBF69;
+    text-align: center;
+}
+
 th, td {
-    padding: 10px;
+    position: relative;
+    padding: 7px;
     text-align: center;
 }
 

@@ -19,6 +19,7 @@ contact {
     background-color: #FFBF69;
     padding: 10px;
     text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 nav {
@@ -46,14 +47,4 @@ table {
     width: 60%;
     margin: 20px auto;
     border-collapse: collapse;
-}
-
-contact {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #FFBF69;
-    padding: 10px;
-    text-align: center;
-    box-sizing: border-box; /* Ensure padding is included in the width */
 }

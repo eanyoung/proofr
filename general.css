@@ -48,11 +48,12 @@ table {
     border-collapse: collapse;
 }
 
-th, td {
+contact {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFBF69;
     padding: 10px;
     text-align: center;
-}
-
-th {
-    background-color: #FFBF69;
+    box-sizing: border-box; /* Ensure padding is included in the width */
 }

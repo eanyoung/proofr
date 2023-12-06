@@ -49,12 +49,13 @@ table {
     border-collapse: collapse;
 }
 
-footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #FFBF69;
+    color: #000000;
     text-align: center;
 }
 
